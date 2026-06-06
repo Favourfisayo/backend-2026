@@ -1,0 +1,313 @@
+MEMORY ALLOCATION EXPERIMENT LOG
+Start Time: 2026-02-15T23:48:03.421Z
+System: win32 x64
+CPUs: 4 x Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+
+
+================================================================================
+[2026-02-15T23:48:03.430Z] Iteration 1: Allocated 10 MB
+--------------------------------------------------------------------------------
+Allocation Size: 10 MB
+Time Taken: 5.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     4.57 GB (61.62%)
+  Free Memory:     2.85 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.52 MB
+  Heap Total:      5.53 MB
+  RSS (Physical):  33.45 MB
+  External:        11.58 MB
+  Array Buffers:   10.01 MB
+
+TOTAL ALLOCATED: 10.00 MB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:03.981Z] Iteration 2: Allocated 60 MB
+--------------------------------------------------------------------------------
+Allocation Size: 60 MB
+Time Taken: 34.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     4.61 GB (62.19%)
+  Free Memory:     2.80 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.70 MB
+  Heap Total:      5.53 MB
+  RSS (Physical):  68.24 MB
+  External:        71.58 MB
+  Array Buffers:   70.01 MB
+
+TOTAL ALLOCATED: 70.00 MB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:04.610Z] Iteration 3: Allocated 110 MB
+--------------------------------------------------------------------------------
+Allocation Size: 110 MB
+Time Taken: 87.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     4.67 GB (63.05%)
+  Free Memory:     2.74 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.10 MB
+  Heap Total:      7.03 MB
+  RSS (Physical):  125.45 MB
+  External:        181.58 MB
+  Array Buffers:   180.01 MB
+
+TOTAL ALLOCATED: 180.00 MB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:05.244Z] Iteration 4: Allocated 160 MB
+--------------------------------------------------------------------------------
+Allocation Size: 160 MB
+Time Taken: 107.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     4.76 GB (64.19%)
+  Free Memory:     2.65 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.33 MB
+  Heap Total:      7.28 MB
+  RSS (Physical):  207.50 MB
+  External:        341.58 MB
+  Array Buffers:   340.01 MB
+
+TOTAL ALLOCATED: 340.00 MB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:06.006Z] Iteration 5: Allocated 210 MB
+--------------------------------------------------------------------------------
+Allocation Size: 210 MB
+Time Taken: 183.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     4.87 GB (65.75%)
+  Free Memory:     2.54 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.38 MB
+  Heap Total:      7.28 MB
+  RSS (Physical):  315.20 MB
+  External:        551.58 MB
+  Array Buffers:   550.01 MB
+
+TOTAL ALLOCATED: 550.00 MB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:06.775Z] Iteration 6: Allocated 260 MB
+--------------------------------------------------------------------------------
+Allocation Size: 260 MB
+Time Taken: 236.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     5.02 GB (67.77%)
+  Free Memory:     2.39 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.49 MB
+  Heap Total:      7.03 MB
+  RSS (Physical):  448.39 MB
+  External:        811.58 MB
+  Array Buffers:   810.01 MB
+
+TOTAL ALLOCATED: 810.00 MB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:07.574Z] Iteration 7: Allocated 310 MB
+--------------------------------------------------------------------------------
+Allocation Size: 310 MB
+Time Taken: 249.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     5.16 GB (69.64%)
+  Free Memory:     2.25 GB
+
+PROCESS MEMORY:
+  Heap Used:       3.89 MB
+  Heap Total:      7.28 MB
+  RSS (Physical):  607.27 MB
+  External:        1.10 GB
+  Array Buffers:   1.09 GB
+
+TOTAL ALLOCATED: 1.09 GB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:08.442Z] Iteration 8: Allocated 360 MB
+--------------------------------------------------------------------------------
+Allocation Size: 360 MB
+Time Taken: 362.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     5.35 GB (72.16%)
+  Free Memory:     2.06 GB
+
+PROCESS MEMORY:
+  Heap Used:       3.95 MB
+  Heap Total:      7.03 MB
+  RSS (Physical):  791.66 MB
+  External:        1.45 GB
+  Array Buffers:   1.45 GB
+
+TOTAL ALLOCATED: 1.45 GB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:09.221Z] Iteration 9: Allocated 410 MB
+--------------------------------------------------------------------------------
+Allocation Size: 410 MB
+Time Taken: 229.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     5.55 GB (74.80%)
+  Free Memory:     1.87 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.05 MB
+  Heap Total:      6.28 MB
+  RSS (Physical):  1001.74 MB
+  External:        1.85 GB
+  Array Buffers:   1.85 GB
+
+TOTAL ALLOCATED: 1.85 GB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:10.178Z] Iteration 10: Allocated 460 MB
+--------------------------------------------------------------------------------
+Allocation Size: 460 MB
+Time Taken: 446.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     5.81 GB (78.30%)
+  Free Memory:     1.61 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.24 MB
+  Heap Total:      6.03 MB
+  RSS (Physical):  1.21 GB
+  External:        2.30 GB
+  Array Buffers:   2.29 GB
+
+TOTAL ALLOCATED: 2.29 GB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:11.019Z] Iteration 11: Allocated 510 MB
+--------------------------------------------------------------------------------
+Allocation Size: 510 MB
+Time Taken: 323.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     6.05 GB (81.62%)
+  Free Memory:     1.36 GB
+
+PROCESS MEMORY:
+  Heap Used:       4.29 MB
+  Heap Total:      6.28 MB
+  RSS (Physical):  1.46 GB
+  External:        2.79 GB
+  Array Buffers:   2.79 GB
+
+TOTAL ALLOCATED: 2.79 GB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:11.931Z] Iteration 12: Allocated 560 MB
+--------------------------------------------------------------------------------
+Allocation Size: 560 MB
+Time Taken: 359.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     6.33 GB (85.35%)
+  Free Memory:     1.09 GB
+
+PROCESS MEMORY:
+  Heap Used:       3.47 MB
+  Heap Total:      7.28 MB
+  RSS (Physical):  1.74 GB
+  External:        3.34 GB
+  Array Buffers:   3.34 GB
+
+TOTAL ALLOCATED: 3.34 GB
+--------------------------------------------------------------------------------
+
+================================================================================
+[2026-02-15T23:48:13.000Z] Iteration 13: Allocated 610 MB
+--------------------------------------------------------------------------------
+Allocation Size: 610 MB
+Time Taken: 559.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     6.59 GB (88.91%)
+  Free Memory:     842.19 MB
+
+PROCESS MEMORY:
+  Heap Used:       3.50 MB
+  Heap Total:      7.28 MB
+  RSS (Physical):  2.05 GB
+  External:        3.94 GB
+  Array Buffers:   3.94 GB
+
+TOTAL ALLOCATED: 3.94 GB
+--------------------------------------------------------------------------------
+
+WARNING: Process using 2.05 GB physical memory
+
+================================================================================
+ERROR: Allocation failed at iteration 14
+Error message: Array buffer allocation failed
+Last successful size: 610 MB
+
+================================================================================
+[2026-02-15T23:48:13.572Z] Iteration 14: FINAL STATE (After Failure)
+--------------------------------------------------------------------------------
+Allocation Size: 610 MB
+Time Taken: 0.00 ms
+
+SYSTEM MEMORY:
+  Total Memory:    7.41 GB
+  Used Memory:     6.60 GB (89.04%)
+  Free Memory:     831.81 MB
+
+PROCESS MEMORY:
+  Heap Used:       3.40 MB
+  Heap Total:      5.78 MB
+  RSS (Physical):  2.05 GB
+  External:        3.94 GB
+  Array Buffers:   3.94 GB
+
+TOTAL ALLOCATED: 3.94 GB
+--------------------------------------------------------------------------------
+
+================================================================================
+EXPERIMENT SUMMARY
+End Time: 2026-02-15T23:48:13.592Z
+Total iterations: 14
+Total arrays: 13
+Total allocated: 3.94 GB

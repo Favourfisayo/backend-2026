@@ -1,0 +1,73 @@
+===========================================
+CPU BENCHMARK EXECUTION RESULTS
+===========================================
+
+===========================================
+1. MONTE CARLO PI CALCULATION
+===========================================
+Script: monte_carlo_pi.js
+Iterations: 400,000,000
+Algorithm: Random sampling to estimate π
+
+--- With CPU Profiling ---
+Output: { pi: 3.14151321, seconds: 18.1575131 }
+Execution Time: 18.16 seconds
+CPU Profile: CPU.20260212.141504.4952.0.001.cpuprofile
+
+--- With Heap Profiling ---
+Heap Profile: Heap.20260212.141718.17848.0.001.heapprofile
+
+===========================================
+2. BIGINT FACTORIAL CALCULATION
+===========================================
+Script: bigint_factorial.js
+Input: factorial(200,000)
+Algorithm: Iterative multiplication using BigInt
+
+--- With CPU Profiling ---
+Output: 
+  digits: 973351
+  seconds: 75.4550929
+Execution Time: 75.46 seconds ⚠️ LONGEST
+CPU Profile: CPU.20260212.141537.7304.0.001.cpuprofile
+
+--- With Heap Profiling ---
+Output: (Data collected)
+Heap Profile: Heap.20260212.141744.12188.0.001.heapprofile
+
+===========================================
+3. MATRIX MULTIPLICATION
+===========================================
+Script: matrix_multiply.js
+Matrix Size: 1000 x 1000
+Data Type: Float64Array
+Algorithm: Cache-optimized (i-k-j order)
+
+--- With CPU Profiling ---
+Output:
+  seconds: 4.9327890000000005
+  checksum: 479.2717479439359
+Execution Time: 4.93 seconds ⚡ FASTEST
+CPU Profile: CPU.20260212.141704.17792.0.001.cpuprofile
+
+--- With Heap Profiling ---
+Output:
+Heap Profile: Heap.20260212.141954.15884.0.001.heapprofile
+
+===========================================
+SUMMARY
+===========================================
+Performance Ranking (fastest to slowest):
+1. Matrix Multiplication:  ~4.7 seconds  (100% baseline)
+2. Monte Carlo Pi:        ~18.1 seconds  (385% of baseline)
+3. BigInt Factorial:      ~75.5 seconds  (1606% of baseline) ⚠️
+
+The BigInt Factorial operation took approximately:
+- 15.2x longer than Matrix Multiplication
+- 4.2x longer than Monte Carlo Pi
+
+Profile Files Generated:
+- 3 CPU profiles (.cpuprofile)
+- 3 Heap profiles (.heapprofile)
+
+===========================================
