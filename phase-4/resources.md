@@ -1,0 +1,3 @@
+- `How node.js resolves module [article]` - https://medium.com/outbrain-engineering/node-js-module-resolution-af46715784ef
+- `Lockfiles [article]` - https://medium.com/@dirishalasandeep/understanding-package-lock-npm-452a02607488
+- `Nodejs arch. [article]` - https://blog.atharvdangedev.in/posts/understanding-nodejs-architecture-a-deep-dive-into-v8-libuv-and-everything-in-between
